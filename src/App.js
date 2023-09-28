@@ -13,10 +13,6 @@ function App() {
 
 function counter(){
   const [count, setCount] = useState();
-
-
-
-
   return <div>
     <div>
       <button onClick={() => setCount((c) => c - 1)}>-</button>
